@@ -17,6 +17,7 @@ def get_first_number(text):
 def puzzle1():
     f = open("input.txt")
     lines = f.read().split("\n")
+    f.close()
 
     the_sum = 0
     for line in lines:
@@ -67,6 +68,7 @@ def puzzle2():
 
     f = open("input.txt")
     lines = f.read().split("\n")
+    f.close()
 
     the_sum = 0
     for line in lines:
