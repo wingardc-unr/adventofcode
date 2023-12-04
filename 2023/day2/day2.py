@@ -10,7 +10,7 @@ MAX_B = 14
 
 
 
-def puzzle1():
+def part1_and_part2():
     f = open("input.txt")
     lines = f.read().split("\n")
     f.close()
@@ -47,10 +47,8 @@ def puzzle1():
     print(power_sum)
 
 
-
 def main():
-    puzzle1()
-#    puzzle2()
+    part1_and_part2()
 
 
 if __name__ == "__main__":

@@ -14,7 +14,7 @@ def get_first_number(text):
     raise Exception
 
 
-def puzzle1():
+def part1():
     f = open("input.txt")
     lines = f.read().split("\n")
     f.close()
@@ -41,7 +41,7 @@ def get_earliest_digit(text, digit_map):
     return the_earliest
 
 
-def puzzle2():
+def part2():
     digits = {
         "one"   : "1",
         "two"   : "2",
@@ -80,8 +80,8 @@ def puzzle2():
 
 
 def main():
-    puzzle1()
-    puzzle2()
+    part1()
+    part2()
 
 
 if __name__ == "__main__":
